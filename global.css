@@ -1,0 +1,47 @@
+body {
+  margin: 0px;
+}
+nav {
+  background-color: #333446;
+  color: aliceblue;
+  height: 36px;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.navDiv {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 12rem;
+}
+
+svg {
+  margin-top: 8px;
+  margin-left: 12px;
+}
+
+.navSpan {
+  margin-top: 9px;
+}
+
+.kids {
+  width: 100%;
+}
+
+.hero-section {
+  background-image: url(public/kids.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+img {
+  width: 8rem;
+  height: 8rem;
+  box-shadow: yellow 2px;
+}
