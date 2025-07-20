@@ -70,7 +70,7 @@ nav {
   box-shadow: yellow 5px;
 } */
 
-.nav-container {
+.hero-container {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -152,9 +152,23 @@ nav {
   }
   .nav-section2 {
     display: block;
+    margin-top: 10px;
+    margin-left: 10px;
   }
   .nav-section {
     display: none;
+  }
+
+  .fname {
+    font-size: 1.7rem;
+  }
+
+  .hero-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 2px;
+    gap: 5px;
   }
 }
 
