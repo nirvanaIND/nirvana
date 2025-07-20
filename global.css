@@ -20,14 +20,11 @@ nav {
   color: aliceblue;
   height: 36px;
   font-size: 12px;
-
-
 }
 
 nav {
   display: flex;
   gap: 2rem;
-  border-radius: 10px;
 }
 
 .navDiv {
@@ -50,6 +47,75 @@ nav {
 
 .navSpan {
   margin-top: 9px;
+}
+
+.nav-section2 {
+  display: none;
+}
+
+.kids {
+  width: 100%;
+}
+
+.hero-section {
+  /* background-image: url(public/kids.png); */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+/* .imgg {
+  width: 8rem;
+  height: 8rem;
+  box-shadow: yellow 5px;
+} */
+
+.nav-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 10px;
+  gap: 10px;
+}
+
+.logo-image {
+  width: 5rem;
+  height: 5rem;
+}
+
+.fname {
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  font-weight: bolder;
+}
+
+.nav-section {
+  display: flex;
+  gap: 25px;
+  margin-left: 25px;
+  color: #63c8ff;
+  font-size: small;
+}
+
+.donate-us-button {
+  background-color: #333446;
+  color: aliceblue;
+  width: 8rem;
+  height: 2rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: none;
+  display: inline-flex;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  cursor: pointer;
+}
+
+.donate-us-button:hover {
+  background-color: #40414b;
+  color: rgb(233, 245, 255);
 }
 
 @media (max-width: 768px) {
@@ -77,74 +143,20 @@ nav {
   .mySvg {
     margin-top: 7px;
   }
+
+  .hero-section {
+    /* background-image: url(public/kids.png); */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+  }
+  .nav-section2 {
+    display: block;
+  }
+  .nav-section {
+    display: none;
+  }
 }
-
-.kids {
-  width: 100%;
-}
-
-.hero-section {
-  /* background-image: url(public/kids.png); */
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-
-/* .imgg {
-  width: 8rem;
-  height: 8rem;
-  box-shadow: yellow 5px;
-} */
-
-.nav-container {
-  display: flex;
-  align-items: center;
-  margin-left: 10px;
-  gap: 10px;
-}
-
-.logo-image {
-  width: 5rem;
-  height: 5rem;
-}
-
-.fname {
-  font-size: 30px;
-  font-family: "Playfair Display", serif;
-  font-weight: bolder;
-}
-
-.nav-section {
-  display: flex;
-  gap: 25px;
-  margin-left: 25px;
-  color: #63c8ff;
-  font-size: small;
-}
-
-
-.donate-us-button {
-  background-color: #333446;
-  color: aliceblue;
-  width: 8rem;
-  height: 2rem;
-  margin-left: 10px;
-  margin-right: 10px;
-  border: none;
-  display: inline-flex;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
-  cursor: pointer;
-}
-
-.donate-us-button:hover {
-  background-color: #40414b;
-  color: rgb(233, 245, 255);
-}
-
-
 
 /* ✅ Normal Mobiles & Small Tablets: 481px to 768px */
 /* @media (max-width: 768px) {
