@@ -1,32 +1,82 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   margin: 0px;
   font-family: sans-serif;
 }
+
 nav {
   background-color: #333446;
   color: aliceblue;
   height: 36px;
   font-size: 12px;
+
+
 }
 
 nav {
   display: flex;
   gap: 2rem;
+  border-radius: 10px;
 }
 
 .navDiv {
+  width: 100%;
   display: flex;
-  gap: 0.5rem;
-  margin-left: 12rem;
+  gap: 1rem;
+  justify-content: center;
 }
 
-svg {
+.navContent {
+  display: flex;
+  /* justify-items: center; */
+  gap: 5px;
+}
+
+/* svg {
   margin-top: 8px;
   margin-left: 12px;
-}
+} */
 
 .navSpan {
   margin-top: 9px;
+}
+
+@media (max-width: 768px) {
+  .navDiv {
+    flex-direction: row;
+    /* flex-direction: column; */
+    justify-items: center;
+    gap: 10px;
+    height: fit-content;
+    width: 100%;
+  }
+
+  .navContent {
+    display: flex;
+    align-items: center;
+    /* Vertically center icon + text */
+    justify-content: center;
+    gap: 6px;
+  }
+
+  .navSpan {
+    font-size: 8px;
+  }
+
+  .mySvg {
+    margin-top: 7px;
+  }
 }
 
 .kids {
@@ -71,6 +121,8 @@ svg {
   color: #63c8ff;
   font-size: small;
 }
+
+
 .donate-us-button {
   background-color: #333446;
   color: aliceblue;
@@ -91,3 +143,26 @@ svg {
   background-color: #40414b;
   color: rgb(233, 245, 255);
 }
+
+
+
+/* ✅ Normal Mobiles & Small Tablets: 481px to 768px */
+/* @media (max-width: 768px) {
+  .navDiv {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+  }
+
+  .navContent {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .navSpan {
+    text-align: center;
+    font-size: 13.5px;
+  }
+} */
